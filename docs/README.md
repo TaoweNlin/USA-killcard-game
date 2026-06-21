@@ -2,6 +2,8 @@
 
 这里记录《美国杀》当前公开仓库版本的工程结构、规则边界和资源约定。文档只描述已经在代码中实现的能力，不把后续计划写成已完成能力。
 
+在线试玩：[https://taowenlin.github.io/USA-killcard-game/](https://taowenlin.github.io/USA-killcard-game/)
+
 ## 文档入口
 
 - [架构说明](./architecture.md)：技术栈、目录结构、数据流、状态流、资源路径和测试方式。
