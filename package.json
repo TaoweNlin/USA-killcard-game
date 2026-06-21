@@ -1,0 +1,34 @@
+{
+  "name": "usa-killcard-game",
+  "version": "0.1.0",
+  "description": "A Chinese political satire browser card game inspired by classic identity card-game flow.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --base /",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:data": "tsx src/tests/data-validation.ts",
+    "test:rules": "tsx src/tests/rules-smoke.ts",
+    "test": "npm run test:data && npm run test:rules"
+  },
+  "keywords": [
+    "card-game",
+    "browser-game",
+    "typescript",
+    "vite",
+    "political-satire"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "vite": "^8.0.16"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.1",
+    "playwright": "^1.59.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
